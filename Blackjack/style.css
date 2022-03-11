@@ -1,0 +1,86 @@
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 2rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	color: white;
+
+	padding: 3rem;
+	background-color: green;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 5rem;
+	font-size: 5rem;
+	color: goldenrod;
+}
+
+#message-el {
+	margin-bottom: 1.5rem;
+}
+
+#playerCards-el,
+#dealerCards-el {
+	font-style: oblique;
+}
+
+#playerTotal-el {
+	font-size: bold;
+	margin-top: 1.5rem;
+}
+
+button {
+	width: 18rem;
+	height: 3rem;
+	font-weight: bold;
+	color: green;
+	font-size: 2rem;
+	border: 0.1rem solid black;
+	border-radius: 0.7rem;
+	background-color: goldenrod;
+	margin-top: 2rem;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: lightblue;
+}
+
+input {
+	text-align: center;
+	margin: auto;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	border-radius: 0.4rem;
+	font-size: 1.8rem;
+	width: 20rem;
+
+	background-color: transparent;
+	border: 0.1rem solid black;
+	padding: 0.3rem 1rem;
+	display: block;
+}
+
+input:focus {
+	color: green;
+	background-color: bisque;
+}
+
+#playerName-el {
+	font-size: 2rem;
+}
+
+#playerName:empty {
+	font-size: 3rem;
+	display: none;
+}
